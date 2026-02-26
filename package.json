@@ -1,7 +1,7 @@
 {
   "name": "@pl-core/utils",
   "private": false,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Funciones para array, base64, blob, file, hash, interval, merge, mime, mobile, numbers, object, react, string, units, url",
   "keywords": [
     "utils",
@@ -23,13 +23,69 @@
       "types": "./dist/main.d.ts",
       "default": "./dist/main.js"
     },
-    "./utils": {
+    "./*": {
       "types": "./dist/utils/index.d.ts",
       "default": "./dist/utils/index.js"
     },
-    "./utils/*": {
-      "types": "./dist/utils/*/index.d.ts",
-      "default": "./dist/utils/*/index.js"
+    "./array": {
+      "types": "./dist/utils/array/index.d.ts",
+      "default": "./dist/utils/array/index.js"
+    },
+    "./base64": {
+      "types": "./dist/utils/base64/index.d.ts",
+      "default": "./dist/utils/base64/index.js"
+    },
+    "./blob": {
+      "types": "./dist/utils/blob/index.d.ts",
+      "default": "./dist/utils/blob/index.js"
+    },
+    "./file": {
+      "types": "./dist/utils/file/index.d.ts",
+      "default": "./dist/utils/file/index.js"
+    },
+    "./hash": {
+      "types": "./dist/utils/hash/index.d.ts",
+      "default": "./dist/utils/hash/index.js"
+    },
+    "./interval": {
+      "types": "./dist/utils/interval/index.d.ts",
+      "default": "./dist/utils/interval/index.js"
+    },
+    "./merge": {
+      "types": "./dist/utils/merge/index.d.ts",
+      "default": "./dist/utils/merge/index.js"
+    },
+    "./mime": {
+      "types": "./dist/utils/mime/index.d.ts",
+      "default": "./dist/utils/mime/index.js"
+    },
+    "./mobile": {
+      "types": "./dist/utils/mobile/index.d.ts",
+      "default": "./dist/utils/mobile/index.js"
+    },
+    "./numbers": {
+      "types": "./dist/utils/numbers/index.d.ts",
+      "default": "./dist/utils/numbers/index.js"
+    },
+    "./object": {
+      "types": "./dist/utils/object/index.d.ts",
+      "default": "./dist/utils/object/index.js"
+    },
+    "./react": {
+      "types": "./dist/utils/react/index.d.ts",
+      "default": "./dist/utils/react/index.js"
+    },
+    "./string": {
+      "types": "./dist/utils/string/index.d.ts",
+      "default": "./dist/utils/string/index.js"
+    },
+    "./units": {
+      "types": "./dist/utils/units/index.d.ts",
+      "default": "./dist/utils/units/index.js"
+    },
+    "./url": {
+      "types": "./dist/utils/url/index.d.ts",
+      "default": "./dist/utils/url/index.js"
     }
   },
   "files": [
