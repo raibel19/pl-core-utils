@@ -1,5 +1,5 @@
 {
-  "name": "ux-pl",
+  "name": "@pl-core/utils",
   "private": false,
   "version": "0.1.0",
   "description": "Funciones para array, base64, blob, file, hash, interval, merge, mime, mobile, numbers, object, react, string, units, url",
@@ -7,12 +7,13 @@
     "utils",
     "typescript",
     "helpers",
-    "ux-pl"
+    "pl-core",
+    "pl-core-utils"
   ],
   "author": "Polo",
   "license": "MIT",
   "repository": {
-    "url": "git+https://github.com/raibel19/ux-pl.git"
+    "url": "git+https://github.com/raibel19/pl-core-utils.git"
   },
   "type": "module",
   "main": "dist/main.js",
